@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <h1>Fiche d'inscription des étudiants</h1>
+    <form>
+      <p>
+        <label for="nom"> Nom: </label>
+        <input id="nom" type="text" placeholder="Ex: DUPUIT" />
+      </p>
+      <p>
+        <label for="prenom"> Prenom: </label>
+        <input id="prenom" type="text" placeholder="Ex: Antoine" />
+      </p>
+      <p>
+        <label for="lieu"> Lieu de naissance: </label>
+        <input id="lieu" type="text" placeholder="Ex: Paris" />
+        <label for="age"> Date de naissance: </label>
+        <input id="age" type="date" />
+      </p>
+      <p>
+        <label> Pays d'origine: </label>
+        <select>
+          <option>France</option>
+          <option>Cameroun</option>
+          <option>Cote d'ivoire</option>
+          <option>Canada</option>
+        </select>
+      </p>
+      <p>
+        <label for="civilite">Civilité:</label><br />
+        <input name="name" id="m" type="radio" />M.<br />
+        <input name="name" id="mme" type="radio" />Mme
+      </p>
+      <p>
+        <label>Pourcentage ou moyenne obtenue au BAC:</label>
+        <input type="text" /><br />
+      </p>
+      <p>
+        <label> Formation: </label>
+        <select>
+          <option>Droit</option>
+          <option>Art</option>
+          <option>Architecture</option>
+          <option>Actuariat</option>
+        </select>
+      </p>
+      <p>
+        <label> Autres Formations: </label><br />
+        <input type="checkbox" />Informatique<br />
+        <input type="checkbox" />Mathématiques appliqués<br />
+        <input type="checkbox" />Gestion<br />
+        <input type="checkbox" />Comptabilité
+      </p>
+      <p>
+        <label for="email"> Email: </label>
+        <input id="email" type="email" placeholder="Ex: abc@gmail.com" />
+      </p>
+      <p>
+        <label for="nber"> Numéro de téléphone: </label>
+        <input id="nber" type="tel" placeholder="xx xx xx xx" />
+      </p>
+      <p>
+        <label for="bio">Lettre de motivation</label>
+        <textarea id="bio" maxlength="500" rows="10" cols="100"></textarea
+        ><br />
+        <input type="file" /><br />
+      </p>
+
+      <input type="submit" /><br />
+    </form>
+  </body>
+</html>
