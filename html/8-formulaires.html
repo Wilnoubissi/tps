@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <h1>Inscription</h1>
+    <form>
+      <p>
+        <label for="nom"> Nom: </label>
+        <input id="nom" type="email" placeholder="Ex: DUPUIT" />
+      </p>
+      <p>
+        <label for="email"> Email: </label>
+        <input id="email" type="email" placeholder="Ex: abc@gmail.com" />
+      </p>
+      <p>
+        <label for="age"> Age: </label>
+        <input id="age" type="number" />
+      </p>
+      <p>
+        <label for="passw"> Mot de passe: </label>
+        <input id="passw" type="password" />
+      </p>
+      <p>
+        <label> Pays: </label>
+        <select>
+          <option>France</option>
+          <option>Cameroun</option>
+          <option>Cote d'ivoire</option>
+          <option>Canada</option>
+        </select>
+      </p>
+      <p>
+          <label for="bio">Biographie</label>
+          <textarea id="bio" maxlength="="500"></textarea>
+      </p>
+      <p>
+          <label>Fruits préférés:</label><br/>
+          <input type="checkbox"/>Pomme<br/>
+          <input type="checkbox"/>Orange<br/>
+          <input type="checkbox"/>Mangue<br/>
+      </p>
+      <input type="submit"/><br/>
+    </form>
+  </body>
+</html>
