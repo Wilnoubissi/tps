@@ -1,0 +1,73 @@
+body {
+  background-color: ghostwhite;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 70px;
+}
+h2 {
+  color: red;
+  font-weight: bold;
+}
+.text_white {
+  color: white;
+  background-color: black;
+}
+tbody > tr:nth-child(even) {
+  background-color: gainsboro;
+}
+tbody > tr:nth-child(odd) {
+  background-color: white;
+}
+table {
+  width: 100%;
+  text-align: left;
+}
+td:first-child {
+  font-weight: bold;
+  text-align: right;
+}
+tbody tr:hover {
+  cursor: pointer;
+  background-color: #808080;
+}
+/*
+.config-image {
+  width: 100%;
+  height: auto;
+}*/
+/** {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}*/
+figure {
+  border: 0.2rem solid red;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: #f5f3f3;
+  text-align: center;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  font-style: italic;
+}
+img {
+  width: 100%;
+  /*pour les images 
+  on peut travailler uniquement sur la width
+  pour maintenir les proportions*/
+}
+div {
+  color: blue;
+  padding: 0 1rem 0 1rem;
+  margin: 1rem 1rem 1rem 1rem;
+  border: 2px dashed blue;
+  background-color: gainsboro;
+}
+a {
+  color: red;
+  font-weight: bold;
+}
