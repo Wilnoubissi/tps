@@ -10,7 +10,7 @@ for (let i=1;i<=n;i++){
             message = "fizzbuzz"
             }
         document.write(message)
-    }
-    else{
-        document.write(i)
-    }
+        else {
+            document.write(i)
+        }
+}
