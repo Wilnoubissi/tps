@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP25_js</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+    <h1>Ajout d'un étudiant</h1>
+    <div id="main__form">
+        <form id="form">
+          <div id="err-student"></div>
+          <div>
+            <label class="form-label" for="nom">Nom : </label
+            ><input id="nm" type="text" class="form-input" />
+          </div>
+
+          <div>
+            <label class="form-label" for="prenom">Prenom : </label
+            ><input id="prenm" type="text" class="form-input" />
+          </div>
+
+          <div>
+            <label class="form-label" for="age">Age : </label
+            ><input  id="age" type="number" class="form-input" />
+          </div>
+
+          <div>
+            <label class="form-label" id="civilite">Genre : </label
+            ><input class="form-input" name="name" id="m" type="radio" />M.
+            <input class="form-input" name="name" id="mme" type="radio" />Mme
+          </div>
+
+          <div>
+            <label class="form-label" for="option">Pays: </label
+            ><input id="pays" type="text" class="form-input" />
+          </div>
+          
+          <div>
+            <label class="form-label" for="option">Option : </label
+            ><input id="option" type="text" class="form-input" />
+          </div>
+
+          <p>Liste des cours</p>
+            <input id="cours-input" type="text" placeholder="Ajouter des cours" />
+            <button id="btn">créer</button>
+
+          <p id="err-cours"></p>
+          <ol id="cours-list"></ol>
+
+          <input type="submit" value="Soumettre" />
+        </form>
+
+        <h2>Listes des étudiants</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Nom</th>
+        <th>Prenom</th>
+        <th>Age</th>
+        <th>Genre</th>
+        <th>Pays</th>
+        <th>Option</th>
+        <th>Cours</th>
+      </tr>
+    </thead>
+    <tbody id="contacts"></tbody>
+  </table>
+      </div>
+    <script src="app.js" ;></script>
+  </body>
+</html>
