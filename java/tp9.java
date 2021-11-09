@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class tp9 {
     public static void main(String[] variables) {
+        //retourne le mois en fonction du nombre saisi - utilisation de switch case
         Scanner keyboard = new Scanner(System.in);
 
         System.out.print("Saisir le numéro du mois : ");
